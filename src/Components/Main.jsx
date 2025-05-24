@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "typed.js";
+import { motion } from "motion/react"
 
 const Main = () => {
   const el = React.useRef(null);
@@ -17,33 +18,46 @@ const Main = () => {
   }, []);
   return (
     <section className=" flex items-center h-screen   ">
-      <div className="left w-full mx-auto  space-y-5 p-4 flex  flex-col justify-center text-center ">
-
+      <motion.div
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+       
+        className="left w-full mx-auto space-y-5 p-4 flex flex-col justify-center items-center text-center"
+      >
         
+
+
         <h1 className="md:text-4xl text-3xl font-bold ">
           Hi , I'm <span className="text-[#b4cdf9]">Aakash Dalal</span>
         </h1>
         <div className="md:text-4xl text-3xl">and I am passionate</div>
+        
         <div className="text-[#b4cdf9] text-4xl  ">
           <span ref={el} />
           <div className="text-white my-4 ">I build things for web</div>
         </div>
 
-        <div className="btn my-5 mx-2 md:mx-10 flex items-center justify-center">
+        <motion.div
+        initial={{ opacity: 0, y: 30 }}
+         animate={{ opacity: 1, y: 0 }}
+         transition={{ duration: 0.8 }}
+         className="btn my-5 mx-2 md:mx-10 flex items-center justify-center">
           <a
             href="/resume.pdf"
             download
-            className="bg-[#b4cbf1] mx-2 p-2 text-black rounded-xl font-bold cursor-pointer  hover:bg-[#576785] hover:text-white transition"
+            className="bg-[#b4cbf1] mx-2 p-2 text-black rounded-xl font-bold cursor-pointer  hover:bg-[#576785] hover:text-white  hover:scale-110 transition-transform duration-200"
           >
             Download Resume
           </a>
-          {/* <button className='bg-[#b4cbf1] mx-2 p-2 text-black rounded-xl font-bold cursor-pointer'>Visit Github</button> */}
+          
 
           <a
             href="https://github.com/aakashdalal108"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#b4cbf1] mx-2 p-2 text-black rounded-xl font-bold cursor-pointer flex  items-center gap-2 hover:bg-[#576785] hover:text-white transition"
+            className="bg-[#b4cbf1] mx-2 p-2 text-black rounded-xl font-bold cursor-pointer flex  items-center gap-2 hover:bg-[#576785] hover:text-white hover:scale-110 transition-transform duration-200"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -55,11 +69,21 @@ const Main = () => {
             </svg>
             Visit Github
           </a>
-        </div>
-      </div>
-      <div className="right w-full mx-auto hidden md:block  ">
+        </motion.div>
+      </motion.div>
+      
+
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}         
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        viewport={{ once: true }}
+        className="right w-full mx-auto hidden md:block  "
+      >
+        
         <img className="w-[90%] " src="/coderavtar.png" alt="" />
-      </div>
+      </motion.div>
+      
     </section>
   );
 };
