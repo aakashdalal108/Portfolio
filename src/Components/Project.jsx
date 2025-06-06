@@ -114,8 +114,8 @@ const Project = () => {
             <div className="flex flex-col items-center relative group md:hover:scale-110 transition-transform duration-300 ml-auto">
               <img
                 className="max-w-[400px] w-full mr-auto relative z-10"
-                src="/credex.png"
-                alt="Softsell Project"
+                src="/credex.avif"
+                alt="credex Project"
               />
             </div>
           </motion.a>
@@ -139,7 +139,7 @@ const Project = () => {
             <div className="flex flex-col items-center relative group md:hover:scale-110 transition-transform duration-300">
               <img
                 className="max-w-[400px] w-full mr-auto relative z-10"
-                src="/spotify.png"
+                src="/spotify.avif"
                 alt="Spotify Project"
               />
             </div>
@@ -218,7 +218,7 @@ const Project = () => {
             <div className="flex flex-col items-center relative group md:hover:scale-110 transition-transform duration-300 ml-auto">
               <img
                 className="max-w-[400px] w-full mr-auto relative z-10"
-                src="/twitterClone.png"
+                src="/twitterClone.avif"
                 alt="twitter Project"
               />
             </div>
@@ -228,7 +228,7 @@ const Project = () => {
         {/* project-5 */}
         <div className="project5 flex md:gap-[80px] md:flex-row flex-col gap-4 mt-8 items-center relative md:mt-20">
           <div className="line hidden md:block h-[2px] bg-cyan-700 absolute top-1/2 right-1/2 left-1/5"></div>
-          <div className="dot hidden md:block w-4 h-4 bg-white border-3 border-[#312c84] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-full"></div>
+          <div className="dot hidden md:block w-4 h-4 bg-white border-3 border-cyan-700 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-full"></div>
 
           <motion.a
             href="https://to-do-app-rust-three.vercel.app/"
