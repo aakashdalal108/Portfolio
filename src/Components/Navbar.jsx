@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     
     <motion.nav
-    className="flex justify-around items-center"
+    className="flex justify-around items-center  w-full "
     initial={{ y: -50, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
     transition={{ duration: 0.7 }}

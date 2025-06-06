@@ -81,7 +81,7 @@ const Main = () => {
         className="right w-full mx-auto hidden md:block  "
       >
         
-        <img className="w-[90%] " src="/coderavtar.png" alt="" />
+        <img className="w-[90%] " src="/coderavtar.avif" alt="" />
       </motion.div>
       
     </section>
