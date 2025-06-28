@@ -20,6 +20,111 @@ const Project = () => {
 
       <div className="relative mx-12">
 
+          {/* Project-1 */}
+        {/* <div className="project1 flex md:gap-[80px] md:flex-row flex-col gap-4 mt-8 items-center relative md:mt-20">
+          <div className="line hidden md:block h-[2px] bg-gradient-to-r from-indigo-400 to-purple-600 absolute top-1/2 right-1/2 left-1/4"></div>
+          <div className="dot hidden md:block w-4 h-4 bg-white border-3 border-indigo-400 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-full"></div>
+
+          <motion.a
+            href="https://perpenny-travel-agency-kj95.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex w-full relative justify-center md:justify-start"
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
+            <div className="flex flex-col items-center relative group md:hover:scale-110 transition-transform duration-300">
+              <img
+                className="max-w-[400px] w-full mr-auto relative z-10"
+                src="/item.avif"
+                alt="item management"
+              />
+            </div>
+          </motion.a>
+
+          <motion.div
+            className="w-full"
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
+            <h2 className="text-2xl md:text-4xl bg-gradient-to-r from-indigo-400  to-purple-600 bg-clip-text text-transparent font-semibold">
+            Item Management App
+            </h2>
+            <p className="text-gray-800 text-sm text-justify md:text-base mt-2">
+            A React app to add, view, and manage items with images. Features include a form to add items, a dynamic view page, image carousel, and an enquiry button that sends an email using EmailJS. Data is saved with local storage. 
+            </p>
+            <div className="flex flex-wrap gap-2 mt-2">
+              <span className="bg-gradient-to-br from-indigo-400 to-purple-500 rounded-2xl px-2  mx-2">
+                React
+              </span>
+              <span className="bg-gradient-to-br from-indigo-400 to-purple-500 rounded-2xl px-2  mx-2">
+                Tailwind
+              </span>
+              <span className="bg-gradient-to-br from-indigo-400 to-purple-500 rounded-2xl px-2  mx-2">
+                React Router
+              </span>
+              
+            </div>
+          </motion.div>
+        </div>
+
+
+project 2 */}
+        <div className="project2 flex md:gap-[80px] md:flex-row flex-col gap-4 mt-8 items-center relative md:mt-20">
+          <motion.div
+            className="order-2 md:order-1 w-full"
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
+            <h2 className="text-2xl md:text-4xl bg-gradient-to-r from-indigo-400  to-purple-600 bg-clip-text text-transparent font-semibold">
+            Item Management App
+            </h2>
+            <p className="text-gray-800 text-justify text-sm md:text-base mt-2">
+           
+            A React app to add, view, and manage items with images. Features include a form to add items, a dynamic view page, image carousel, and an enquiry button that sends an email using EmailJS. Data is saved with local storage. 
+            </p>
+            <div className="flex flex-wrap gap-2 mt-2">
+            <span className="bg-gradient-to-br from-indigo-400 to-purple-500 rounded-2xl px-2  mx-2">
+                React
+              </span>
+              <span className="bg-gradient-to-br from-indigo-400 to-purple-500 rounded-2xl px-2  mx-2">
+                Tailwind
+              </span>
+              <span className="bg-gradient-to-br from-indigo-400 to-purple-500 rounded-2xl px-2  mx-2">
+                React Router
+              </span>
+            </div>
+          </motion.div>
+
+          <div className="line hidden md:block h-[2px]  bg-gradient-to-r from-indigo-400 to-purple-600 absolute top-1/2 right-1/4 left-1/2"></div>
+          <div className="dot hidden md:block w-4 h-4 bg-white border-3 border-indigo-400 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-full"></div>
+
+          <motion.a
+            href="https://credex-softsell.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="order-1 md:order-2 flex w-full relative justify-center md:justify-start"
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
+            <div className="flex flex-col items-center relative group md:hover:scale-110 transition-transform duration-300 ml-auto">
+              <img
+                className="max-w-[400px] w-full mr-auto relative z-10"
+                src="/item.avif"
+                alt="item hub Project"
+              />
+            </div>
+          </motion.a>
+        </div>
+
         {/* Project-1 */}
         <div className="project1 flex md:gap-[80px] md:flex-row flex-col gap-4 mt-8 items-center relative md:mt-20">
           <div className="line hidden md:block h-[2px] bg-gradient-to-r from-cyan-400 to-blue-600 absolute top-1/2 right-1/2 left-1/4"></div>
