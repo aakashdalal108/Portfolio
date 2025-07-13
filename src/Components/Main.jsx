@@ -45,7 +45,7 @@ const Main = () => {
          transition={{ duration: 0.8 }}
          className="btn my-5 mx-2 md:mx-10 flex items-center justify-center">
           <a
-            href="/resume.pdf"
+            href="/Aakash Dalal resume.pdf"
             download
             className="bg-[#b4cbf1] mx-2 p-2 text-black rounded-xl font-bold cursor-pointer  hover:bg-[#576785] hover:text-white  hover:scale-110 transition-transform duration-200"
           >
